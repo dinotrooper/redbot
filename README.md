@@ -4,14 +4,14 @@
 
 # Instructions
 1. Create a Python virtual environment with virtualenv
-    a. `python3 -m pip install virtualenv`
-    b. `python3 -m virtualenv redenv`
+    1. `python3 -m pip install virtualenv`
+    2. `python3 -m virtualenv redenv`
 2. Within that virtual environment, pip install the Red-DiscordBot package
-    a. `source redenv/bin/activate`
-    b. `python -m pip install -U pip setuptools wheel`
-    c. `python -m pip install -U Red-DiscordBot`
+    1. `source redenv/bin/activate`
+    2. `python -m pip install -U pip setuptools wheel`
+    3. `python -m pip install -U Red-DiscordBot`
     - NOTE: Step d is needed to use the audio cog (play music in a voice channel).
-    d. `python -m pip install -U apsw`
+    4. `python -m pip install -U apsw`
 3. Run the redbot setup utility
     - `redbot-setup`
 4. Start your rebot instance
@@ -23,8 +23,8 @@
     - `sudo cp redbot@.service /etc/system/systemd`
 7. Restart the systemd daemon and start your service.
     - NOTE: This step requires sudo permissions.
-    a. `sudo systemctl daemon-reload`
-    b. `sudo systemctl start redbot@<instance_name>`
+    1. `sudo systemctl daemon-reload`
+    2. `sudo systemctl start redbot@<instance_name>`
 8. Check the status of the service.
     - NOTE: This step requires sudo permissions.
     - `sudo systemctl status redbot@<instance_name>`
