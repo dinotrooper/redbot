@@ -17,7 +17,7 @@
 4. Start your rebot instance
     - `redbot <change_this_name>`
 5. Open the service file with a text editor and change the path of the executable to match your virtual environment.
-    - ExecStart=<change_this_path>/redenv/bin/python -O -m redbot %I --no-prompt
+    - `ExecStart=<change_this_path>/redenv/bin/python -O -m redbot %I --no-prompt`
 6. Copy the redbot.service file into /etc/system/systemd
     - NOTE: This step requires sudo permissions.
     - `sudo cp redbot@.service /etc/system/systemd`
