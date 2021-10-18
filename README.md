@@ -10,7 +10,7 @@
     1. `source redenv/bin/activate`
     2. `python -m pip install -U pip setuptools wheel`
     3. `python -m pip install -U Red-DiscordBot`
-    - NOTE: Step d is needed to use the audio cog (play music in a voice channel).
+    - NOTE: This next step is needed to use the audio cog (play music in a voice channel).
     4. `python -m pip install -U apsw`
 3. Run the redbot setup utility
     - `redbot-setup`
